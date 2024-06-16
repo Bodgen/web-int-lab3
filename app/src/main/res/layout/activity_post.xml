@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp"
+                android:background="@color/backgroundColor">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#fefefe"
+            android:elevation="4dp"
+            android:padding="24dp"
+            android:layout_margin="16dp"
+            android:gravity="center">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Post List"
+                    android:textSize="24sp"
+                    android:textColor="#000"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingBottom="16dp"/>
+        </LinearLayout>
+
+        <Button
+                android:id="@+id/add_post_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add item"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:textColor="#000000"
+                android:layout_margin="16dp"/>
+
+        <LinearLayout
+                android:id="@+id/posts_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+
+    </LinearLayout>
+</RelativeLayout>

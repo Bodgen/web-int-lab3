@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab3_Android</string>
+    <string-array name="sex_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>
